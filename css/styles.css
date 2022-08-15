@@ -1,0 +1,46 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --grayblue: hsl(220, 15%, 55%);
+    --lightgray: hsl(212, 45%, 89%);
+    --darkblue: hsl(218, 44%, 22%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+body {
+    background-color: var(--lightgray); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+
+}
+
+img {
+    border-radius: 1rem;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 18rem;
+    
+}
+
+.subtext > h2 {
+    color: var(--darkblue);
+    font-weight: 700;
+    font-weight: bold;
+}
+.subtext > p {
+    color: var(--grayblue);
+}
